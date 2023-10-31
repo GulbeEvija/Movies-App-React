@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.two {
+  background-color: rgb(187, 241, 85);
+  letter-spacing: 0.4em;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.movieCard {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 400px;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px;
+  background-color: rgb(12, 12, 35);
+}
+
+.link {
+  color: rgba(195, 171, 243, 0.732);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+
+.link:hover {
+  border-radius: 20px;
+  padding: 19px;
+  border: 1px solid rgba(5, 183, 238, 0.732);
+}
+
+.categoryBtn {
+  border: 2px solid rgb(1, 33, 138);
+  background-color: rgb(230, 242, 250);
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.categoryBtn:hover {
+  transition: 1s ease-in;
+  background-color: rgb(1, 33, 138);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.movieTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movieYear {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.resource {
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid rgb(51, 138, 1);
+  background-color: rgb(230, 250, 233);
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  width: 150px;
+  margin: 10px;
 }
