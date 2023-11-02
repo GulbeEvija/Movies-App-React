@@ -9,7 +9,7 @@
 <h3 align="center">Movie App</h3>
 
   <p align="center">
-    App built with React using class component.
+    App built with React using React Hooks and React Router.
     <br />
     <br />
     <a href="https://creative-cranachan-893caf.netlify.app/">View project live on Netlify</a>
@@ -39,10 +39,16 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-* In this app users can add and cross out a task, as well as delete the whole list of tasks.
-* To build this app I used 3 attributes - onChange, onClick and onSubmit.
-* "Each child should have a unique key prop" was the challenge I ran into. Therefore when using map(), we also need to add key.
-* In the future I hope to add a button where users can edit a task!
+* In this app offers users many fearures:
+    1. Dynamic navigation bar which was built using React Router.
+         * Also to access to each movie page was used useParams() and useNavigate().
+    2. Buttons' functionality is to sort movies by assigned categories.
+    3. "Show more" button shows full description of the movie and "Show less" - contracts the description.
+* Other technologies used:
+    1. data.js was used to store all information of movies
+    2. props were used to share data between components
+    3. React Hook = useState()
+* In the future I hope to add a search bar where users can search movies!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
