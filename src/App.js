@@ -14,14 +14,14 @@ import AboutMovie from "./AboutMovie";
 function App() {
   return <Router>
     <nav>
-      <Link to="/" className="link">Home</Link>
-      <Link to="/movies" className="link">Movies</Link>
+      <Link to="/home" className="link">Home</Link>
+      <Link to="/" className="link">Movies</Link>
       <Link to="/contact" className="link">Contact</Link>
     </nav>
 
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/movies" element={<Movies />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Movies />} />
       <Route path='/movies/:title' element={<AboutMovie />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
