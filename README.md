@@ -2,17 +2,17 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/GulbeEvija/To-Do-List/">
-    <img src="src/list.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/GulbeEvija/Movies-App-React">
+    <img src="movieIcon.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">To Do List</h3>
+<h3 align="center">Movie App</h3>
 
   <p align="center">
     App built with React using class component.
     <br />
     <br />
-    <a href="https://thunderous-narwhal-40dc5d.netlify.app/">View project live on Netlify</a>
+    <a href="https://creative-cranachan-893caf.netlify.app/">View project live on Netlify</a>
   </p>
 </div>
 
@@ -88,7 +88,7 @@ If you have any suggestions that would make this project better, please send me 
 
 Evija Gulbe - [LinkedIn](https://www.linkedin.com/in/evija-gulbe-534673240/)
 
-Project Link: [https://github.com/GulbeEvija/To-Do-List/](https://github.com/GulbeEvija/To-Do-List/)
+Project Link: [https://github.com/GulbeEvija/Movies-App-React](https://github.com/GulbeEvija/Movies-App-React)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,6 +102,6 @@ Project provided by [CanSheCode](https://edu-canshecode.thinkific.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[product-screenshot]: taskImage.png
+[product-screenshot]: movieReactApp.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
