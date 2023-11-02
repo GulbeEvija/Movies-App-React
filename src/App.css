@@ -5,6 +5,18 @@
   padding: 20px;
 }
 
+.contEach {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.movieText {
+  margin-left: 50px;
+  align-self: center;
+  width: 400px;
+}
+
 .two {
   background-color: rgb(187, 241, 85);
   letter-spacing: 0.4em;
@@ -23,6 +35,7 @@
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 15px;
   background-color: rgb(12, 12, 35);
@@ -74,13 +87,13 @@ nav {
 
 .movieYear {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .resource {
   text-decoration: none;
   padding: 20px;
-  border: 2px solid rgb(51, 138, 1);
+  border: 2px solid rgb(91, 189, 12);
   background-color: rgb(230, 250, 233);
   color: black;
   font-family: 'Roboto', sans-serif;
@@ -88,4 +101,118 @@ nav {
   font-size: 22px;
   width: 150px;
   margin: 10px;
+}
+
+.showBtn {
+  background: white;
+  border: none;
+  font-size: 18px;
+  color: rgb(167, 0, 201);
+  font-family: 'Raleway', sans-serif;
+}
+
+.moviePlot {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: rgb(32, 32, 32);
+}
+
+.movieTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+}
+
+.director {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+}
+
+.linkMore {
+  margin-top: 100px;
+}
+
+.backCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.backBtn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+@media all and (max-width: 500px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .two {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
+
+  .categoryBtn {
+    padding: 8px;
+    width: 120px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+
+  .movieTitle {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+  .eachPhoto {
+    width: 350px;
+    height: 500px;
+  }
+
+  .movieCard {
+    width: 350px;
+    margin: 5px;
+  }
+  
+  .movieText {
+    margin-left: 5px;
+    width: 350px;
+  }
+
+}
+
+@media all and (max-width: 800px) {
+
+  .contEach {
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .linkMore {
+    margin-top: 15px;
+  }
+  
+  .backCont {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .categoryCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

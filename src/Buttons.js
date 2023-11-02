@@ -12,7 +12,7 @@ function Buttons({data, setMovies}) {
         })
     }
     return (
-        <div>
+        <div className="categoryCont">
             <button onClick={() => filteredMovies("Top Rated")} className="categoryBtn">Top Rated</button>
             <button onClick={() => filteredMovies("adventure")} className="categoryBtn">Adventure</button>
             <button onClick={() => filteredMovies("comedy")} className="categoryBtn">Comedy</button>
